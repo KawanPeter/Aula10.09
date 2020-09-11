@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <menu>
+        <a href='recebeDados.php'>Resultado</a>
+    </menu>    
+    <form method="POST" action="/recebeDados.php">
+    <!-- Recebimento dos numeros -->
+    Numero 1=<input type="number" name=numero1 placeholder="Digite o primeiro número:">
+    <br>
+    Numero 2=<input type="number" name=numero2 placeholder="Digite o segundo número:">
+    <br>
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
